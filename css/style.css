@@ -1,5 +1,178 @@
 #logo-sony {
-    width: 150px;
-    margin-right: 30px;
+    width: 120px;
+    margin: 10px;
     vertical-align: baseline;
+}
+
+.j-content-b {
+    justify-content: space-between;
+}
+
+.j-content-c {
+    justify-content: center;
+}
+
+.i-center {
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.index {
+    z-index: 1;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.drop-n {
+    text-align: center;
+    right: 0px;
+}
+
+.bord {
+    border-radius: 0;
+    border: 0;
+}
+
+.block {
+    display: inline-block;
+}
+
+.btn {
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+.btn-orange {
+    background-color: orangered;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.btn-blue {
+    background-color: rgb(45, 100, 230);
+    color: white;
+}
+
+.btn-grey {
+    background-color: lightgray;
+    border-color: lightgray;
+    color: rgb(45, 100, 230);
+}
+
+#lens {
+    padding: 0px 15px;
+    color: black;
+}
+
+#lens-img {
+    width: 50%;
+}
+
+.main-game {
+    color: white;
+    width: 100%;
+    margin-top: 130px;
+}
+
+.bg-img {
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 350px;
+}
+
+.ps5covers {
+    width: 30%;
+}
+
+.color-txt {
+    color: rgb(114, 114, 114);
+}
+
+.img-calc {
+    width: calc(100% / 5 - 1px);
+}
+
+.itt-title {
+    width: 100%;
+    color: white;
+    padding-bottom: 100px;
+}
+
+.itt-back {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 30px;
+}
+
+.c-newgames {
+    background-color: rgb(31, 31, 31);
+}
+
+.c-psplus {
+    background-color: rgb(190, 190, 190);
+}
+
+.psplus-img {
+    width: 400px;
+}
+
+.img-cover {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+.drop::after {}
+
+.hov-ring:hover {
+    outline-offset: -4px;
+    outline: 2px solid white;
+}
+
+.hov-ring-b:hover {
+    outline-offset: -4px;
+    outline: 2px solid black;
+}
+
+#hov-shadow:hover {
+    transition: margin-top 0.7s;
+    margin-top: -15px;
+    cursor: pointer;
+}
+
+.hov-shadow {
+    transition: margin-top 0.7s;
+    cursor: pointer;
+    position: relative;
+    outline-offset: 3px;
+    outline: 3px solid blue;
+}
+
+#thumb-hov:hover {
+    border-bottom: 1px solid blue;
+}
+
+#thumb-hov:hover img {
+    opacity: 0.5;
+}
+
+.hov-grey:hover {
+    outline: 2px solid rgb(45, 100, 230);
+    outline-offset: -5px;
 }
