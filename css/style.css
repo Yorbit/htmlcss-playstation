@@ -155,9 +155,6 @@
 
 
 
-
-. .drop::after {}
-
 .hov-ring:hover {
     outline-offset: -4px;
     outline: 2px solid white;
