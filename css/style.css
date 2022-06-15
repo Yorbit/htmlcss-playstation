@@ -59,9 +59,15 @@
     color: white;
 }
 
+.btn-white {
+    background-color: white;
+    color: black;
+    border-color: rgb(205, 205, 205);
+}
+
 .btn-grey {
     background-color: lightgray;
-    border-color: lightgray;
+    border-color: rgb(205, 205, 205);
     color: rgb(45, 100, 230);
 }
 
@@ -117,7 +123,7 @@
 }
 
 .c-psplus {
-    background-color: rgb(190, 190, 190);
+    background-color: rgb(205, 205, 205);
 }
 
 .psplus-img {
@@ -130,15 +136,27 @@
     width: 100%;
 }
 
+.ps-now-c {
+    background-color: rgb(22, 28, 59);
+}
+
+.footer-c {
+    background-color: rgb(45, 100, 230);
+}
+
+.footer-img {
+    width: 150px;
+}
+
+.world-logo {
+    width: 40px;
+    padding: 0px 10px 10px 0px;
+}
 
 
 
 
-
-
-
-
-.drop::after {}
+. .drop::after {}
 
 .hov-ring:hover {
     outline-offset: -4px;
@@ -175,4 +193,27 @@
 .hov-grey:hover {
     outline: 2px solid rgb(45, 100, 230);
     outline-offset: -5px;
+}
+
+
+@media all and (min-width: 575px) {}
+
+@media all and (min-width: 576px) {}
+
+@media all and (min-width: 768px) {
+
+    .img-calc {
+        width: calc(100% / 5 - 1px);
+    }
+
+    div.d-flex.flex-wrap {
+        justify-content: space-between;
+    }
+}
+
+@media all and (min-width: 992px) {
+
+    .ps5covers {
+        width: 20%;
+    }
 }
